@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">echo-android</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Number</string>
+    <string name="register">REGISTER</string>
+    <string name="verify">VERIFY</string>
+    <string name="Otp">OTP</string>
+    <string name="resend_code">Resend Otp</string>
+    <string name="button_save">Button Save</string>
+    <string name="invalid_otp">Invalid Otp</string>
+</resources>

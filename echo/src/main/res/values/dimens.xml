@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_larger">36dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="padding_smaller">4dp</dimen>
+    <dimen name="text_large">24sp</dimen>
+    <dimen name="padding_medium">24dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="text_default">18sp</dimen>
+    <dimen name="text_profile_default">14sp</dimen>
+    <dimen name="margin_smaller">4dp</dimen>
+    <dimen name="text_medium">22sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_smaller">12sp</dimen>
+    <dimen name="image_width">200dp</dimen>
+    <dimen name="image_size_default">80dp</dimen>
+    <dimen name="chat_user_image_dimen">60dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_4x">64dp</dimen>
+    <dimen name="day_image_size">40dp</dimen>
+    <dimen name="margin_2x">30dp</dimen>
+    <dimen name="profile_pic_size">120dp</dimen>
+    <dimen name="upload_pic_size">30dp</dimen>
+    <dimen name="toolbar_icon_size">35dp</dimen>
+    <dimen name="dp_18">18dp</dimen>
+    <dimen name="profile_pic_margin">-80dp</dimen>
+</resources>

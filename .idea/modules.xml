@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/echo/echo.iml" filepath="$PROJECT_DIR$/echo/echo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/echo/echo.iml" filepath="$PROJECT_DIR$/echo/echo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/echo-android.iml" filepath="$PROJECT_DIR$/echo-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/echo-android.iml" filepath="$PROJECT_DIR$/echo-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/echo-sample/echo-sample.iml" filepath="$PROJECT_DIR$/echo-sample/echo-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/echo-sample/echo-sample.iml" filepath="$PROJECT_DIR$/echo-sample/echo-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/echo_realm/echo_realm.iml" filepath="$PROJECT_DIR$/echo_realm/echo_realm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/echo_realm/echo_realm.iml" filepath="$PROJECT_DIR$/echo_realm/echo_realm.iml" />
+    </modules>
+  </component>
+</project>

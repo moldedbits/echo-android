@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_medium"
+    app:layout_constraintHorizontal_chainStyle="spread">
+
+    <TextView
+        android:id="@+id/attachment_document"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/document_layer"
+        android:text="@string/document"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/attachment_gallery"/>
+
+    <TextView
+        android:id="@+id/attachment_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/gallery_layer"
+        android:text="@string/gallery"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toRightOf="@+id/attachment_document"
+        app:layout_constraintRight_toLeftOf="@+id/attachment_camera"/>
+
+    <TextView
+        android:id="@+id/attachment_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/camera_layer"
+        android:text="@string/camera"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toRightOf="@+id/attachment_gallery"
+        app:layout_constraintRight_toRightOf="parent"/>
+</android.support.constraint.ConstraintLayout>

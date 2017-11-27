@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">echo</string>
+    <string name="view_contact">View Contact</string>
+    <string name="clear_chat">Clear Chat</string>
+    <string name="attachment">Attachment</string>
+    <string name="user_account_not_present">User account is not present</string>
+    <string name="type_a_message">Type your message</string>
+    <string name="sent_you_message">Sent you a message</string>
+    <string name="plz_enter_msg">Please enter a message</string>
+    <string name="speech_prompt">Speech promt</string>
+    <string name="speech_not_supported">Speech not supported</string>
+    <string name="remote_service_connected">Remote Servce Connected</string>
+    <string name="remote_service_disconnected">Remote Service Disconnected</string>
+    <string name="document">Document</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+</resources>
