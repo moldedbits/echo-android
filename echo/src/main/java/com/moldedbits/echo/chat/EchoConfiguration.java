@@ -394,11 +394,11 @@ public class EchoConfiguration {
             if (!TextUtils.isEmpty(this.getClientId())) {
                 configuration.setClientId(this.getClientId());
             } else {
-                throw new MendatoryFieldException();
+                throw new MandatoryFieldException();
             }
 
             if (TextUtils.isEmpty(this.getServerUri())) {
-                throw new MendatoryFieldException();
+                throw new MandatoryFieldException();
             } else {
                 configuration.setServerUri(this.getServerUri());
             }
@@ -406,7 +406,7 @@ public class EchoConfiguration {
             if (this.getExtension() != null) {
                 configuration.setExtension(this.getExtension());
             } else {
-                throw new MendatoryFieldException();
+                throw new MandatoryFieldException();
             }
 
             if (this.getKeepAlive() > 0) {

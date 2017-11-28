@@ -34,9 +34,9 @@ public class ProfileActivity extends AppCompatActivity implements ValueEventList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
-        etName = (EditText) findViewById(R.id.et_name);
-        etNumber = (EditText) findViewById(R.id.et_number);
-        btnSave = (Button) findViewById(R.id.btn_save);
+        etName = findViewById(R.id.et_name);
+        etNumber = findViewById(R.id.et_number);
+        btnSave = findViewById(R.id.btn_save);
 
         setData();
 

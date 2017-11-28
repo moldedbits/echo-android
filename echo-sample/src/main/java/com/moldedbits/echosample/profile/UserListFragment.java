@@ -25,7 +25,7 @@ public class UserListFragment extends Fragment implements ValueEventListener {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.user_contact_item, container, false);
-        recyclerView = (RecyclerView) view.findViewById(R.id.rv_contacts);
+        recyclerView = view.findViewById(R.id.rv_contacts);
         firebaseDatabase = FirebaseDatabase.getInstance();
         firebaseDatabase.getReference().addValueEventListener(this);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getActivity());

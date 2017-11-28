@@ -50,8 +50,8 @@ class UserRecyclerViewAdapter extends RecyclerView.Adapter<UserRecyclerViewAdapt
 
         UserViewHolder(View view) {
             super(view);
-            tvName = (TextView) view.findViewById(R.id.tv_name);
-            tvNumber = (TextView) view.findViewById(R.id.tv_number);
+            tvName = view.findViewById(R.id.tv_name);
+            tvNumber = view.findViewById(R.id.tv_number);
         }
 
         void bindViews(User user) {

@@ -119,4 +119,6 @@ fabric.properties
 # Sonarlint plugin
 .idea/sonarlint
 
+google-services.json
+
 # End of https://www.gitignore.io/api/android,intellij
